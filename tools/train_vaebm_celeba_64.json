@@ -1,0 +1,31 @@
+{
+    "checkpoint": "/data/10707project/output/vae/celeba64/beta_0.1",
+    "save": "/data/10707project/output/vaebm/",
+    "dataset": "celeba_64",
+    "im_size": 32,
+    "data": "/data/10707project/",
+    "lr": 5e-5,
+    "local_rank": 0,
+    "world_size": 1,
+    "seed": 1,
+    "master_address": "127.0.0.1",
+
+    "batch_size": 32,
+    "n_channel": 64,
+
+    "alpha_s": 0.2,
+
+    "step_size": 5e-4,
+    "num_steps": 10,
+    "total_iter": 10000,
+
+    "wd": 3e-5,
+    "data_init": false,
+    "use_mu_cd": true,
+    "grad_clip": true,
+
+    "use_buffer": false,
+    "buffer_size": 10000,
+    "max_p": 0.6,
+    "anneal_step": 5000
+}

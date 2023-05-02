@@ -1,0 +1,19 @@
+{
+    "checkpoint_vae": "/data/10707project/output/vae/celeba64/beta_4",
+    "checkpoint_ebm": "/data/10707project/output/vaebm/celeba_64/beta_4",
+    "iter": 3999,
+
+    "save": "/data/10707project/output/generated/kltest_beta_4",
+    "dataset": "celeba_64",
+    "im_size": 64,
+    "seed": 1,
+    "local_rank": 0, 
+
+    "data": "data/",
+    "batch_size": 16,
+    "num_samples": 32,
+    "n_channel": 64,
+    "renormalize": false,
+    "step_size": 5e-4,
+    "num_steps": 30
+}

@@ -1,0 +1,22 @@
+{
+    "datadir": "data/",
+    "dataset": "cifar10",
+    "seed": 5,
+    "workers": 2,
+    "batchSize": 256,
+    "report_freq": 50,
+
+    "imageSize": 32,
+    "nc": 3,
+    "nz": 100,
+    "ngf": 32,
+    "niter": 200,
+    
+    "lr": 5e-4,
+    "beta": 1.0,
+
+    "ngpu": 1,
+    "savedir": "output/",
+    "perturbed": false,
+    "ratio": 0.2
+}

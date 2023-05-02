@@ -1,0 +1,22 @@
+{
+    "datadir": "/data/10707project/",
+    "dataset": "celeba64",
+    "seed": 5,
+    "workers": 10,
+    "batchSize": 256,
+    "report_freq": 50,
+
+    "imageSize": 64,
+    "nc": 3,
+    "nz": 10,
+    "ngf": 32,
+    "niter": 100,
+    
+    "lr": 5e-4,
+    "beta": 1,
+
+    "ngpu": 1,
+    "savedir": "/data/10707project/output/",
+    "perturbed": false,
+    "ratio": 0.2
+}

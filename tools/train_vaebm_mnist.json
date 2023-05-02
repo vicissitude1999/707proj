@@ -1,0 +1,31 @@
+{
+    "checkpoint": "output/vae/mnist/20230424-171316",
+    "save": "output/vaebm/",
+    "dataset": "mnist",
+    "im_size": 32,
+    "data": "data/",
+    "lr": 4e-5,
+    "local_rank": 0,
+    "world_size": 1,
+    "seed": 1,
+    "master_address": "127.0.0.1",
+
+    "batch_size": 32,
+    "n_channel": 64,
+
+    "alpha_s": 0.2,
+
+    "step_size": 8e-5,
+    "num_steps": 10,
+    "total_iter": 10000,
+
+    "wd": 3e-5,
+    "data_init": false,
+    "use_mu_cd": false,
+    "grad_clip": true,
+
+    "use_buffer": false,
+    "buffer_size": 10000,
+    "max_p": 0.6,
+    "anneal_step": 5000
+}

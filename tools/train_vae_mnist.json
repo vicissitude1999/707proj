@@ -1,0 +1,22 @@
+{
+    "datadir": "data/",
+    "dataset": "mnist",
+    "seed": 5,
+    "workers": 2,
+    "batchSize": 256,
+    "report_freq": 300,
+
+    "imageSize": 32,
+    "nc": 1,
+    "nz": 100,
+    "ngf": 32,
+    "niter": 100,
+    
+    "lr": 5e-4,
+    "beta": 1.0,
+
+    "ngpu": 1,
+    "savedir": "output/",
+    "perturbed": false,
+    "ratio": 0.2
+}
